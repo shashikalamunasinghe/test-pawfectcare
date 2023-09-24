@@ -1,0 +1,88 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+}
+
+th {
+    background-color: #e7c6ff;
+}
+
+tr{
+    border: 2px solid #ccc;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between; 
+    
+}
+.add-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.remove-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.t-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    background-color: white;
+}
+
+.edit-action-buttons button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+.delete-action-buttons button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  
+}
+
+.edit-action-buttons button:hover {
+    background-color: #e7c6ff; 
+    
+}
+
+.delete-action-buttons button:hover {
+    background-color: #e7c6ff; 
+}
+
+.t-button:hover {
+    background-color:#e7c6ff ; 
+}
+
+.edit-icon::before {
+    content: "\270E"; 
+}
+
+.delete-icon::before {
+    content: "\1F5D1"; 
+}
